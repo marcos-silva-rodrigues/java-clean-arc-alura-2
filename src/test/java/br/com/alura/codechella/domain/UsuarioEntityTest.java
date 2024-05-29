@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
-public class UsuarioTest {
+public class UsuarioEntityTest {
 
   @Test
   public void naoDeveCadastrarUsuarioComCpfInvalido() {
